@@ -1,0 +1,116 @@
+body{
+    width: 100%;
+    height: wrap;
+    overflow-x: hidden;
+}
+#container{
+    height:wrap;
+    width:wrap;
+}
+#navbar{
+    width:96%;
+    height: 10%;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+#banner{
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    margin-left: 2%;
+    float: left;
+    margin-top: 15px;
+    font-size: 25px;
+}
+#navbar #navi{
+    height: wrap;
+    width: wrap;
+    float:left;
+    margin-left:50%;
+} 
+#navbar #navi nav ul li{
+    list-style-type: none;
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    margin-left: 35px;
+    float: left;
+}
+#navbar #navi nav ul li a {
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#heading{
+    position: absolute;
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    color:black;
+    font-weight: 200;
+    margin-top: 9%;
+    margin-left: 5%;
+}
+#langs{
+    position:absolute;
+    margin-top:13%;
+    margin-left: 5%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+#carousel{
+    position: absolute;
+    height:400;
+    width:550;
+    margin-top:16%;
+    margin-left: 28%;
+}
+.d-block w-100{
+  height: 100%;
+}
+.carousel-inner{
+  max-width:300px;
+  max-height: 100%;
+}
+#explanation{
+    position:absolute;
+    height:wrap;
+    width:90%;
+    margin-top: 45%;
+    margin-left: 5%;
+    font-family: 'Roboto',sans-serif;
+}
+#explanation #exp_content{
+    position:absolute;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color:black;
+    font-weight: 100;
+    font-style: italic;
+}
+#Link{
+    position: absolute;
+    margin-top: 1000px;
+    height: wrap;
+    width: wrap;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding:10px 15px 5px 15px;
+    background-color: aqua;
+    opacity: 0.5;
+}
+#Link_to_src{
+    float: left;
+    margin-left: 20px;
+}
+#git_lnk{
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto',sans-serif;
+    float: left;
+    margin-left: 20px;
+}

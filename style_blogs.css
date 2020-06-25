@@ -1,0 +1,134 @@
+body{
+    width: 100%;
+    height: wrap;
+    overflow-x: hidden;
+    background-image: repeating-linear-gradient(50deg, red, orange 7%, yellow 10%)
+}
+#container{
+    height:wrap;
+    width:wrap;
+}
+#navbar{
+    width:96%;
+    height: 10%;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+#banner{
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    margin-left: 2%;
+    float: left;
+    font-size: 25px;
+}
+#navbar #navi{
+    height: wrap;
+    width: wrap;
+    float:left;
+    margin-left:50%;
+} 
+#navbar #navi nav ul li{
+    list-style-type: none;
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    margin-left: 35px;
+    float: left;
+}
+#navbar #navi nav ul li a {
+    list-style-type: none;
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#heading{
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    color:black;
+    font-weight: 400;
+    margin-top: 8%;
+    margin-left: 50px;
+    position: absolute;
+}
+#c_projs{
+    position: absolute;
+    margin-top:12%;
+    margin-left:5%;
+    height:wrap;
+    width: wrap;
+}
+#wrapper_div{
+    position: static;
+    height:wrap;
+    width:wrap;
+}
+#wrapper_div #proj_container_odd{
+    border-radius: 20px;
+    margin-top: 20px;
+    width:35%;
+    height:wrap;
+    float:left;
+    margin-left: 50px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    background-color: black;
+    opacity: 0.8;
+}
+#proj_container_odd a{
+    text-decoration: none;
+}
+#proj_container_odd a #p_title{
+    font-weight: 800;
+    font-size: 26px;
+    color:white;
+}
+#p_lang{
+    font-weight: 500;
+    font-size: 18px;
+    color:white;
+}
+#p_abt{
+    font-weight: 100;
+    font-size: 14px;
+    color:white;
+}
+#wrapper_div #proj_container_even{
+    border-radius: 10px;
+    margin-top: 20px;
+    width:35%;
+    height:wrap;
+    float:left;
+    margin-left: 60px;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Roboto',sans-serif;
+    color:white;
+    background-color: black;
+    opacity: 0.8;
+}
+#proj_container_even a{
+    text-decoration: none;
+}
+#proj_container_even a #p_title{
+    font-weight: 800;
+    font-size: 26px;
+    color:white;
+}
+#footer{
+    height:wrap;
+    width:wrap;
+    padding:10px 20px 10px 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    margin-top: 82%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
