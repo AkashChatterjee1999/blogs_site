@@ -2,6 +2,8 @@ body{
     width: 100%;
     height: wrap;
     overflow-x: hidden;
+    background-image: url('disp_back.jpg');
+    background-position:fixed;
 }
 #container{
     height:wrap;
@@ -64,17 +66,10 @@ body{
 }
 #carousel{
     position: absolute;
-    height:400;
+    height:300;
     width:550;
     margin-top:16%;
     margin-left: 28%;
-}
-.d-block w-100{
-  height: 100%;
-}
-.carousel-inner{
-  max-width:300px;
-  max-height: 100%;
 }
 #explanation{
     position:absolute;
@@ -94,23 +89,132 @@ body{
 }
 #Link{
     position: absolute;
-    margin-top: 1000px;
+    margin-top: 43%;
     height: wrap;
     width: wrap;
-    margin-left: 10%;
+    margin-left: 70%;
     border-radius: 20px;
     padding:10px 15px 5px 15px;
-    background-color: aqua;
-    opacity: 0.5;
 }
 #Link_to_src{
     float: left;
     margin-left: 20px;
+    color:black;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
 }
 #git_lnk{
     text-decoration: none;
-    color:black;
+    color:white;
+    font-size: 20px;
     font-family: 'Roboto',sans-serif;
     float: left;
-    margin-left: 20px;
+    margin-top: -2px;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 4px 8px 4px 8px;
 }
+/*--------------This is the footer part only don't edit it------------------------------------*/
+#footer{
+    height:150px;
+    width:100%;
+    padding:10px 20px 10px 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    position: absolute;
+    margin-top: 152%;
+    margin-bottom: 20px;
+    margin-left:-8px;
+}
+#footer #slinks #foot_note{
+    float:left;
+    margin-left:300px;
+    position: absolute;
+    color:white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-size:16px;
+}
+#footer #slinks{
+    margin-top:30px;
+    width:100%;
+    height:wrap;
+    position:absolute;
+}
+#footer #slinks #fb{
+    position:absolute;
+    float:left;
+    width:wrap;
+    height:wrap;
+}
+#footer #slinks #fb #fb_ico{
+    height:50px;
+    width:50px;
+    border-radius: 32px;
+    transition:transform 1s;
+}
+#footer #slinks #fb:hover #fb_ico{
+    transform: scale(1.5);
+}
+#footer #slinks #lin{
+    position:absolute;
+    float:left;
+    width:wrap;
+    height:wrap;
+    margin-left:75px;
+}
+#footer #slinks #lin #lin_ico{
+    height:50px;
+    width:50px;
+    border-radius: 32px;
+    transition:transform 1s;
+}
+#footer #slinks #lin:hover #lin_ico{
+    transform: scale(1.5);
+}
+#footer #slinks #github{
+    position:absolute;
+    float:left;
+    width:wrap;
+    height:wrap;
+    margin-left:147px;
+}
+#footer #slinks #github #git_ico{
+    height:50px;
+    width:50px;
+    border-radius: 32px;
+    transition:transform 1s;
+}
+#footer #slinks #github:hover #git_ico{
+    transform: scale(1.5);
+}
+#footer #slinks #gle{
+    position:absolute;
+    float:left;
+    width:wrap;
+    height:wrap;
+    margin-left:215px;
+}
+#footer #slinks #gle #gle_ico{
+    height:50px;
+    width:50px;
+    border-radius: 32px;
+    transition:transform 1s;
+}
+#footer #slinks #gle:hover #gle_ico{
+    transform: scale(1.5);
+}
+#footer #slinks #fnote{
+    position:absolute;
+    float:left;
+    width:wrap;
+    height:wrap;
+    margin-left:300px;
+    margin-top:70px;
+    color:white;
+    font-family:'Jost',sans-serif;
+}
+/*--------------------------------------------------------------------------------------------*/

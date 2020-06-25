@@ -90,14 +90,12 @@ body{
     font-family: 'Roboto',sans-serif;
 }
 #info1 #pic_container{
-    width:38%;
-    height:250px;
+    width:wrap;
+    height:wrap;
     position: absolute;
-    border-radius: 20px;
     float: left;
     margin-top: 20px;
     margin-left: 54%;
-    background-color: white;
 }
 #info2{
     position: absolute;

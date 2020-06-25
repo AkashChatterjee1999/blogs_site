@@ -1,4 +1,5 @@
 <?php
+    header("Access-Control-Allow-Origin: *");
     if(isset($_GET['id'])){
         $id = $_GET['id'];
         $conn = mysqli_connect("localhost","root","","blogs");
@@ -9,6 +10,11 @@
         $topic = $res['proj_topic'];
         $lang = $res['proj_lang'];
         $explain = $res1['explanation'];
+        $link1 = $res1['car_img_1'];
+        $link2 = $res1['car_img_2'];
+        $link3 = $res1['car_img_3'];
+        $link4 = $res1['car_img_4'];
+        $link5 = $res1['car_img_5'];
         echo '
             <html>
             <head>
@@ -44,16 +50,24 @@
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="back.jpg" class="d-block w-100" alt="..." >
+                                    <img src='.$link1.' class="d-block w-100" alt="..." >
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="back.jpg" class="d-block w-100" alt="...">
+                                    <img src='.$link2.' class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="back.jpg" class="d-block w-100" alt="...">
+                                    <img src='.$link3.' class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src='.$link4.' class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src='.$link5.' class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -66,13 +80,24 @@
                             </a>
                         </div>
                     </div>';//carousel div ends here
-                echo "<div id = 'explanation'>
+                echo '<div id = "explanation">
                         <h2>About project and Source Code Explanation</h2>
-                        <p id = 'exp_content'>$explain<p>
-                    </div>
-                    <div id = 'Link'>
+                        <p id = "exp_content">'.$explain.'<p>
+                    </div>';
+                    echo "<div id = 'Link'>
                         <p id = 'Link_to_src'>Link to source code:&nbsp&nbsp&nbsp&nbsp</p>
-                        <a id ='git_lnk' href = '#'>Link</a>
+                        <a href = '#'><p id ='git_lnk'>Link</p></a>
+                    </div>
+                </div>
+                <div id = 'footer'>
+                        <div id = 'slinks'>
+                        <div id = 'fb'><img id = 'fb_ico' src = 'fb.png'></div>
+                        <div id = 'lin'><img id = 'lin_ico' src = 'lin.png'></div>
+                        <div id = 'github'><img id = 'git_ico' src = 'gith.png'></div>
+                        <div id = 'gle'><img id = 'gle_ico' src = 'google.png'></div>
+                        <p id = 'foot_note'>This blogging website is just a personal website of the developer where he wants to showcase all his works or projects in a structured way<br> 
+                        with explanations and source code links.You can contact with the developer via those social media links.All rights are reserved @2020</p>
+                        <div id = 'fnote'>@Crafted&nbspby&nbspAkash&nbspChatterjee,2020</div>
                     </div>
                 </div>
             </body>
