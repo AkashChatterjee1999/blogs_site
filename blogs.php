@@ -7,7 +7,9 @@
     echo '
         <html>
             <head>
+                <meta charset = "UTF-8">
                 <link rel = "stylesheet" href = "style_blogs.css">
+                <meta name="viewport" content="width=device-width, initial-scale = 1.0">
                 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
                 <title>Blogs</title>
             </head>
@@ -68,7 +70,7 @@
                         <div id = 'lin'><img id = 'lin_ico' src = 'lin.png'></div>
                         <div id = 'github'><img id = 'git_ico' src = 'gith.png'></div>
                         <div id = 'gle'><img id = 'gle_ico' src = 'google.png'></div>
-                        <p id = 'foot_note'>This blogging website is just a personal website of the developer where he wants to showcase all his works or projects in a structured way<br> 
+                        <p id = 'foot_note'>This blogging website is just a personal website of the developer where he wants to showcase all his works or projects in a structured way
                         with explanations and source code links.You can contact with the developer via those social media links.All rights are reserved @2020</p>
                         <div id = 'fnote'>@Crafted&nbspby&nbspAkash&nbspChatterjee,2020</div>
                     </div>

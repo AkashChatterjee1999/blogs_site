@@ -18,8 +18,10 @@
         echo '
             <html>
             <head>
+                <meta charset = "UTF-8">
                 <title>Display_doc</title>
                 <link rel = "stylesheet" href = "style_disp.css">
+                <meta name="viewport" content="width=device-width, initial-scale = 1.0">
                 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
                 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -81,8 +83,8 @@
                         </div>
                     </div>';//carousel div ends here
                 echo '<div id = "explanation">
-                        <h2>About project and Source Code Explanation</h2>
-                        <p id = "exp_content">'.$explain.'<p>
+                        <h3>About project and Source Code Explanation</h3>
+                        <p>'.$explain.'<p>
                     </div>';
                     echo "<div id = 'Link'>
                         <p id = 'Link_to_src'>Link to source code:&nbsp&nbsp&nbsp&nbsp</p>
@@ -91,12 +93,12 @@
                 </div>
                 <div id = 'footer'>
                         <div id = 'slinks'>
-                        <div id = 'fb'><img id = 'fb_ico' src = 'fb.png'></div>
-                        <div id = 'lin'><img id = 'lin_ico' src = 'lin.png'></div>
-                        <div id = 'github'><img id = 'git_ico' src = 'gith.png'></div>
-                        <div id = 'gle'><img id = 'gle_ico' src = 'google.png'></div>
-                        <p id = 'foot_note'>This blogging website is just a personal website of the developer where he wants to showcase all his works or projects in a structured way<br> 
-                        with explanations and source code links.You can contact with the developer via those social media links.All rights are reserved @2020</p>
+                            <div id = 'fb'><img id = 'fb_ico' src = 'fb.png'></div>
+                            <div id = 'lin'><img id = 'lin_ico' src = 'lin.png'></div>
+                            <div id = 'github'><img id = 'git_ico' src = 'gith.png'></div>
+                            <div id = 'gle'><img id = 'gle_ico' src = 'google.png'></div>
+                            <p id = 'foot_note'>This blogging website is just a personal website of the developer where he wants to showcase all his works or projects in a structured way
+                            with explanations and source code links.You can contact with the developer via those social media links.All rights are reserved @2020</p>
                         <div id = 'fnote'>@Crafted&nbspby&nbspAkash&nbspChatterjee,2020</div>
                     </div>
                 </div>

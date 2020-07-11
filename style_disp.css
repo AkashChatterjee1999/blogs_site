@@ -3,7 +3,7 @@ body{
     height: wrap;
     overflow-x: hidden;
     background-image: url('disp_back.jpg');
-    background-position:fixed;
+    background-position:cover;
 }
 #container{
     height:wrap;
@@ -31,7 +31,7 @@ body{
     height: wrap;
     width: wrap;
     float:left;
-    margin-left:50%;
+    margin-left:40%;
 } 
 #navbar #navi nav ul li{
     list-style-type: none;
@@ -66,8 +66,8 @@ body{
 }
 #carousel{
     position: absolute;
-    height:300;
-    width:550;
+    height:300px;
+    width:550px;
     margin-top:16%;
     margin-left: 28%;
 }
@@ -86,6 +86,15 @@ body{
     color:black;
     font-weight: 100;
     font-style: italic;
+}
+#c1{
+    height:wrap;
+    width:wrap;
+    background-color: bisque;
+    border-radius: 20px;
+    padding:10px 20px 10px 20px;
+    border:1px solid;
+    border-color: red;
 }
 #Link{
     position: absolute;
@@ -125,7 +134,7 @@ body{
     font-size: 20px;
     font-weight: 100;
     position: absolute;
-    margin-top: 152%;
+    margin-top: 155%;
     margin-bottom: 20px;
     margin-left:-8px;
 }
@@ -218,3 +227,76 @@ body{
     font-family:'Jost',sans-serif;
 }
 /*--------------------------------------------------------------------------------------------*/
+/*---------------------For mobile devices---------------------*/
+@media (max-width: 800px){
+    #navbar{
+        margin-top: 5px;
+        margin-left: 8px;
+        height:90px;
+    }
+    #navbar #navi{
+        margin-top: -10px;
+        height: wrap;
+        width: wrap;
+        float:left;
+        margin-left:-10px;
+    }
+    #navbar #navi nav ul li a {
+        list-style-type: none;
+        float: left;
+        margin-left: -20px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    #explanation{
+        margin-top: 490px;
+    }
+    #carousel{
+        height:200px;
+        width:350px;
+        margin-left: 4%;
+        margin-top: 270px;
+        position: absolute;
+    }
+    #Link_to_src{
+        font-size: 16px;
+    }
+    #git_lnk{
+        border-radius: 10px;
+        font-size: 10px;
+        padding: 2px 4px 2px 4px;
+    }
+    #heading{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    #langs{
+        font-size: 18px;
+        margin-top: 190px;
+        margin-left: 30px;
+    }
+    #Link{
+        margin-top:220px;
+        margin-left: 30px;
+        width:250px;
+    }
+    #footer{
+        height:320px;
+        margin-top: 700%;
+    }
+    #footer #slinks #fnote{
+        margin-left:300px;
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 15px;
+    }
+    #footer #slinks #foot_note{
+        margin-top: 70px;
+        margin-left: -5px;
+        margin-right: 5px;
+    } 
+}
+/*---------------------For tabular devices left---------------------*/
+/*TODO: Implement css logics for tabular devices*/ 

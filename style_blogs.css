@@ -221,3 +221,60 @@ body{
     color:white;
     font-family:'Jost',sans-serif;
 }
+/*----------Implementation for mobile devices------------------*/
+@media (max-width:768px){
+    #navbar{
+        margin-top: 5px;
+        margin-left: -5px;
+        height:90px;
+    }
+    #navbar #navi{
+        margin-top: -10px;
+        height: wrap;
+        width: wrap;
+        float:left;
+        margin-left:-10px;
+    }
+    #navbar #navi nav ul li a {
+        list-style-type: none;
+        float: left;
+        margin-left: -20px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    #heading{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 120px;
+    }
+    #c_projs{
+        margin-top: 170px;
+        margin-left:2%;
+    }
+    #wrapper_div #proj_container_odd{
+        margin-top: 20px;
+        width:80%;
+        margin-left: 5px;
+    }
+    #wrapper_div #proj_container_even{
+        border-radius: 10px;
+        width:80%;
+        margin-left: 5px;
+    }
+    #footer{
+        height:320px;
+        margin-top: 475%;
+    }
+    #footer #slinks #fnote{
+        margin-left:300px;
+        position: absolute;
+        margin-top: 230px;
+        margin-left: 15px;
+    }
+    #footer #slinks #foot_note{
+        margin-top: 70px;
+        margin-left: -5px;
+        margin-right: 5px;
+    } 
+}
